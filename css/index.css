@@ -1,0 +1,372 @@
+*{box-sizing: border-box;}
+
+header{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+    clear: both;
+    float: left;
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+body li{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height: 150px;
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.center{
+    height: 150px;
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.media{
+    height: 150px;
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.letUsKnow{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.menu{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.social{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.search{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.banner{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+    background-color: green;
+}
+
+/* main section */
+.main{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.left{
+    height: 475px;
+    width: 70%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.right{
+    height: 600px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+/* left section */
+.blank{
+    height: 125px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.crunch{
+    height: 475px;
+    width: 70%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.featured{
+    height: 475px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.watchnow{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.stories{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.farmlog{
+    height: 425px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+}
+.featured p{
+    margin-bottom: 0%;
+}
+.facebook{
+    height: 106.25px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.future{
+    height: 106.25px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.instagram{
+    height: 106.25px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.memos{
+    height: 106.25px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+} 
+
+/* right section */
+.tip{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.newsletter{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+    background-color: grey;
+}
+.newstitlebox{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+/* images */
+.logo img{
+    height: 150px;
+}
+.farmlog img{
+    height: 375px;
+    width: 70%
+}
+.facebook img{
+    float: left;
+    height: 90px;
+    width: 30%;
+}
+.future img{
+    float: left;
+    height: 90px;
+    width: 30%;
+}
+.instagram img{
+    float: left;
+    height: 90px;
+    width: 30%;
+}
+.memos img{
+    float: left;
+    height: 90px;
+    width: 30%;
+}
+.menu li{
+    float: left;
+    margin-left: 4%;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.social li{
+    float: left;
+    margin-left: 5%;
+}
+.social p{
+    color: grey;
+    float: left;
+    margin-left: 7%;
+}
+.letUsKnow a{
+    text-decoration: none;
+    color: green;
+}
+.banner h3{
+    font-size: 102%;
+    float: left;
+    margin-left: 18%;
+    color: white;
+}
+.banner a{
+    color: white;
+    font-weight: bold;
+}
+.watchnow a{
+    color: grey
+}
+.watchnow span{
+    color: green;
+}
+.tip h3{
+    color: grey;
+}
+.tip a{
+    color: green;
+}
+.newstitlebox{
+    background-color: green;
+    color: white;
+}
+.form button{
+    background-color: green;
+    color: white;
+}
+.form i{
+    color: green;
+}
+.facebook span{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: .8rem;
+}
+.future span{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: .8rem;
+}
+.instagram span{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: .8rem;
+}
+.memos span{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-style: italic;
+}
+.farmlog p{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0%;
+    font-style: italic;
+}
+.form p{
+    color: black;
+}
+
+/* media quiries */
+@media (max-width: 1535px){
+    .logo{width: 40%;}
+    .center{width: 30%;}
+    .media{width: 30%;}
+    .featured span{font-size: .7rem;}
+}
+@media (max-width: 1190px){
+    .banner h3{margin-left: 5%;}
+    .farmlog p{font-size: .9rem}
+    .menu ul{
+        margin: 0%;
+        margin-top: 9%;
+        margin-left: -8%
+    }
+    .featured span{display: none;}
+}
+@media (max-width: 990px){
+    .blank{display: none;}
+    .main{height: 925px;}
+    .left{width: 100%;}
+    .right{
+        width: 100%;
+        height: 450px;}
+    .tip{height: 50px;}
+    .banner h3{
+        font-size: .8rem;
+        margin-left: 3%;
+    }
+    .letUsKnow{display: none;}
+    .menu{height: 50px;}
+    .search{height: 50px;}
+    .social{height: 50px;}
+    .center{
+        height: 50px;
+        width: 60%;}
+    .media{
+        height: 100px;
+        width: 60%;}
+    .menu ul{
+        margin-top: 3%;
+        margin-left: -5%;
+    }
+    .search button{
+        margin-top: 3%;
+        margin-left: 7%
+    }
+    .logo img{height: 122px;}
+    .logo{text-align: center;}
+}
+@media (max-width: 635px){
+    /* .banner{display: none} */
+    .left{height: 950px;}
+    .right{height: 380px;}
+    .newsletter{height: 330px;}
+    .main{height: 1330px;}
+    .crunch{width: 100%;}
+    .watchnow{width: 100%;}
+    .farmlog{width: 100%;}
+    .featured{width: 100%;}
+    .logo img{
+        height: 80px;
+        margin-top: 13%;}
+}
+@media (max-width: 490px){
+    header{height: 75px;}
+    .logo{height: 75px;}
+    .logo img{
+        height: 63px;
+        margin-top: 3%;}
+    .media{display: none;}
+    .center{height: 75px;}
+    .menu li{font-size: .9rem;}
+    .menu ul{
+        margin-top: 10%;
+        margin-left: -12%}
+    .menu{height: 75px;}
+    .tip h3{font-size: .8rem;}
+    .newsletter ul{font-size: .8rem;}
+}
